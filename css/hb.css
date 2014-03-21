@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*-----------------------头部登录------------------------*/
+.top-input-text{width:100px; height:20px; padding:0 5px;}
+.top-login span{float:left; color:#ccc; font-size:12px; font-weight:normal; padding-right:5px; padding-top:13px;}
+.top-login span a{color:#ccc;}
+.top-btn{background:#fbb03b; border:none; font-size:12px; padding:2px 12px;}
+.nav-bar{font-size:16px;}
+.nav-bar a{display:inline-block; line-height:34px; text-align:center; background:#ccc; border-radius:4px; margin-left:25px;}
+.nav-bar a:hover,.nav-bar .nav-bar-active a,.nav li a:hover{background:#fbb03b; text-decoration:none; color:#333; transition:background 0.2s;}
+.nav li a{padding:8px 15px;}
+.navbar-nav{float:right;}
+.navbar-collapse{padding-right:0;}
+.navbar-toggle{background:black;}
+.icon-bar{background:white;}
+.navbar-nav{margin:0;}
+
+@media(max-width:767px){.nav-bar a{border-radius:0;} .nav{width:100%;} .nav-bar a{margin:0;} .navbar-collapse{padding:0;} .navbarmb20{margin-bottom:0;} .carouselpt0{padding:0;}}
+@media(min-width:767px){.gray-bg-mb20{margin-bottom:20px;} .carousel-control{left:15px;} #carouselright{right:15px;}}
+
+.gray-bg{background:#e6e6e6;}
+.navbar{margin-bottom:0;}
+.navbar-header{background:black;}
+.sm_logo{text-align:center; padding-bottom:15px;}
+
+
+
+/*------------------幻灯片登录框-------------------*/
+.wo{}
+.login-box{position:absolute; top:35px; right:7%; min-width:30%;}
+.panel{background:#f8931f;}
+.login-box-btn button{padding:8px 45px;}
+.login-box-ewm span{padding:0;}
+.banner .item img{min-height:470px;}
+
+@media(max-width:767px){.login-box{right:13%;} .login-box-btn button{padding:8px 20px;} .banner .item img{max-width:767px; height:320px;}}
+
+
+
+.index_tit_line{border-top:2px solid #ddd;}
+.index_tit{margin:-35px auto 0 auto; background:#e6e6e6; width:150px; padding:0 15px; text-align:center;}
+
+.index_teacher_arw{width:28px; padding-top:10%;}
+.index_teacher{overflow:hidden;}
+.index_teacher li{float:left; width:210px; background:white; margin-right:6px;}
+.index_teacher li a{font-size:16px;}
+.index_teacher_info{padding:10px; font-size:12px; line-height:1.8em;}
+.index_teacher_name{color:#f8931f;}
+.index_teacher_school{color:#a1a1a1;}
+.index_teacher{width:1080px; float:left; padding:15px 0;}
+
+
+/*-----------------学员------------------*/
+.student div{padding:0;}
+.student .student_info{height:320px; background:#f8931f; padding:12px;}
+.student_info h2{margin:0; text-align:center; font-size:1.5em;}
+.student_info p{padding-top:1em; font-size:0.85em; line-height:2; color:white;}
+.index_video{text-align:center;}
+.index_video p{padding:5px; font-size:0.85em; background:white; max-width:470px; margin:0 auto; line-height:2;}
+.index_video i{margin:0 auto; max-width:470px; display:block;}
+.index_video_img{position:relative;}
+.index_video_new{position:absolute; left:0; top:0;}
+
+@media(max-width:767px){.student .student_info{height:200px;}}
+
+
+
+/*---------------------登录注册---------------------*/
+.login_box{border:5px solid #eee;}
+.but_sprite{border:none; cursor:pointer; background:url(../images/sprite.png) no-repeat;}
+
+.xinlang{background-position:0 0; width:156px; height:32px;}
+.txqq{background-position:0 -32px; width:120px; height:24px;}
+
+
+/*------------------------关于我们-----------------------*/
+.inside_left_nav{font-size:12px;}
+.inside_info{line-height:24px; padding:0 10px;}

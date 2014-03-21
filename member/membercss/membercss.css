@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-inverse .navbar-brand{color:white; font-size:0.85em;}
+.navbar-inverse .navbar-brand a{color:#fbb03b;}
+
+.member_tit{font-size:16px; padding:15px; color:black; background:#fbb03b; margin-left:15px; border-radius:10px;}
+.member_tel u{font-size:2em; text-decoration:none; padding-left:10px; color:#c00; font-weight:bold; font-family:"Arial Unicode MS";}
+.member_bg{background:white; border-radius:5px;}
+
+a.list-group-item.active, a.list-group-item.active:hover{background:#fbb03b; border:1px solid #fbb03b;}
+.member_right_tit{border:none; background:#fbb03b; padding:2px 10px; color:white; border-radius:5px;}
+.member_right_tit small{color:#fef7eb;}
+
+.member_width tr td{text-align:center;}
+
+.account{line-height:30px;}
+.tab-content b{color:#c00; padding-right:5px;}
+.gray999{color:#999;}
+.Head_img img{max-height:80px; max-width:80px; border:2px solid #fbb03b;}
+.member_table_tit tr th{font-size:10px; background:#f9f9f9;}
