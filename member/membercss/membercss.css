@@ -19,3 +19,12 @@ a.list-group-item.active, a.list-group-item.active:hover{background:#fbb03b; bor
 .gray999{color:#999;}
 .Head_img img{max-height:80px; max-width:80px; border:2px solid #fbb03b;}
 .member_table_tit tr th{font-size:10px; background:#f9f9f9;}
+
+
+.app tr th{width:130px; text-align:center; padding:10px; background:#f9f9f9;}
+.app_Choice ul li{float:left; width:16.5%; text-align:center; line-height:30px; margin-bottom:10px;}
+.app_Choice ul li span{padding:3px 12px; background:#f9f9f9; border:1px solid #ddd;}
+.app_Choice ul li span:hover,.app_Choice ul .app_Choice_active span{background:#fbb03b;}
+
+.Course_active{background:#fbb03b;}
+.Course_text p{height:60px; overflow:hidden;}
